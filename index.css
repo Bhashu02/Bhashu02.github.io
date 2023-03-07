@@ -12,18 +12,26 @@ body {
 }
 
 #Bha_img {
-    width: 200px;
-    border-radius: 10px;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-weight: normal;
 }
 
 div.side-profile {
-    padding: 30px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 300px;
     text-align: center;
     color: whitesmoke;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 15px;
     font-family: Helvetica Neue, Proxima Nova, sans serif;
 }
 
@@ -33,4 +41,31 @@ div.side-profile {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.1);
     color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline-block;
+    /* padding: 0px 5px; */
+    padding: 0px 5px;
+}
+
+ul {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 3px 0px;
+    border-radius: 25px;
+}
+
+.github-icon {
+    color: whitesmoke;
+}
+
+.linkedln-icon {
+    color: whitesmoke;
+}
+
+li:hover {
+    color: black;
+    transition: .3s;
 }
