@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: url('images/starrry_night.jpeg'); */
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* background-attachment: fixed; */
+    /* overflow: hidden; */
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+
+    max-width: 90%;
+    max-height: 10%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    /* margin: 20px 20px; */
+    align-items: center;
+}
+
+.left-side-nav {
+    width: 40%;
+    max-height: 100%;
+}
+
+.right-side-nav {
+    width: 60%;
+    max-height: 100%;
+}
+
+.left-side-nav h1 {
+    color: #86c232;
+    font-size: 1.8em;
+    /* text-align: center; */
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding-left: 55px;
+    padding-right: 5px;
+}
+
+.nav-menu {
+    padding-left: 0;
+    float: right;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.nav-menu li a {
+    color: #86c232;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+section {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 40%;
+    max-height: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* background-color: #f8f9fa; */
+}
+
+.right-side {
+    width: 60%;
+    max-height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 30px;
+    overflow: scroll;
+    /* justify-content: center; */
+}
+
+.right-side h2 {
+    color: #86c232;
+}
+
+.profile-pic {
+    max-width: 40%;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0px 5px 20px #3f4042;
+}
+
+.Name {
+    font-size: 2em;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.Career {
+    font-size: 1.3em;
+    margin: 9px 15px;
+
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+
+}
+
+.social-links a {
+    color: #252422;
+    font-size: 1.4em;
+    transition: 0.3s ease-in-out;
+}
+
+.social-links ul {
+    padding: 8px 5px;
+    margin: 0 auto;
+    max-width: 32%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    /* background-color: #e9ecef; */
+
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.github-icon,
+.linkedln-icon {
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    color: black;
+}
+
+.social-links ul {
+    transition: 0.2s ease-in-out;
+}
+
+.social-links ul:hover {
+
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.cv-button {
+    font-size: 1em;
+    margin-top: 40%;
+    padding: 8px 13px;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transition: transform 0.25s;
+}
+
+.cv-button a {
+    text-decoration: none;
+    color: #252422;
+}
+
+.cv-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    transform: translateY(-0.30em);
+}
+
+
+/* project section starts here */
+
+.right-side .projects {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.right-side .projects .post {
+    max-width: 37%;
+    height: 380px;
+    /* border: 2px solid white; */
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px;
+    /* transition: 0.2s ease-in-out; */
+    transition: transform 0.25s;
+    margin-bottom: 50px;
+}
+
+.right-side .projects .post:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+    transform: translateY(-0.30em);
+}
+
+.right-side .projects .post .thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.right-side .projects .post .post-preview {
+    padding: 5px;
+}
