@@ -216,6 +216,7 @@ h2 {
     /* transition: 0.2s ease-in-out; */
     transition: transform 0.25s;
     margin-bottom: 50px;
+    overflow: scroll;
 }
 
 .right-side .projects .post:hover {
